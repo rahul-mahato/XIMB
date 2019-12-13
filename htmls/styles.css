@@ -5,7 +5,7 @@
     }
 
     .signup-background{
-        background: linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)),url('../images/registration4.jpg') no-repeat ;
+        background: linear-gradient(rgba(0, 0, 0, 0.650),rgba(0, 0, 0, 0.6500)),url('../images/registration4.jpg') no-repeat ;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;

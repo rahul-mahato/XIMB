@@ -1,18 +1,18 @@
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Seller's Zone</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seller's Zone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="bg-light ">
     <section class="justify-content-center row ">
-        
+
         <div class="col-sm-12"></div>
         <div class="text-center col-sm-12 my-4 ">
             <div class="my-4">
@@ -25,20 +25,29 @@
             <form>
                 <div class="my-4 row justify-content-center">
 
-                    <div class="input-group  col-md-5 mx-3 mt-5 col-sm-12 row">
-                        <label for="education" class="col-2"><i class="fa fa-truck fa-2x px-1"
+                    <div class="input-group  col-md-5 mx-3 mt-5 col-sm-10 row">
+                        <label for="product" class="col-2 py-1"><i class="fa fa-truck fa-2x px-1"
                                 aria-hidden="true"></i></label>
 
 
-                        <select id="education" class="form-control" name="education">
-                            <option selected disabled>Products</option>
-                            <option></option>
-                            <option></option>
-                            <option></option>
-                            <option></option>
+                        <select id="product" class="form-control" name="product">
+                            <option selected disabled>Products Type</option>
+                            <option>Pottery</option>
+                            <option>Handicraft</option>
+                            <option>Handloom</option>
+                            <option>Jute</option>
+                            <option>Organic Vegetables</option>
+                            <option>Others</option>
                         </select>
                     </div>
-                    <div class="input-group col-md-5 mx-3  mt-5 col-sm-12 mb-2">
+
+                    <div class="input-group  col-md-5 mx-3 mt-5 col-sm-10 row">
+                        <label for="productDesc" class="col-2 py-1">
+                            <i class="fa fa-product-hunt fa-2x" aria-hidden="true"></i>
+                        </label>   
+                        <input type="text" name="productDesc"  class="form-control"  id="productDesc" placeholder="Product Name">
+                    </div>
+                    <div class="input-group col-md-5 mx-3  mt-5 col-sm-10 mb-2">
 
                         <div class="input-group-prepend ">
                             <span class="input-group-text" id="inputGroupFileAddon01"> <i class="fa fa-file-photo-o"
@@ -52,7 +61,7 @@
                                 Sample Pictures</label>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-5 mt-2">
+                    <div class="col-md-12 mb-5 mt-2">
                         <button class="btn " style="background: rgb(255, 77, 89); color: whitesmoke;">Submit</button>
                     </div>
                 </div>
@@ -94,13 +103,13 @@
                                         style="background: rgb(255, 77, 89); font-size: 12px;">Contact</a>
                                 </div>
                             </div>
-                          
+
                         </div>
 
                     </div>
                     <div class="carousel-item text-white">
                         <div class="row justify-content-center">
-                           
+
                             <div class="card my-2  col-md-4 col-sm-10 mx-2 bg-dark">
                                 <img class="card-img-top mt-1" src="../images/agent.png" alt="Card image cap">
                                 <div class="card-body">
@@ -122,9 +131,9 @@
                         </div>
 
                     </div>
-                
 
-                
+
+
 
                 </div>
                 <a class="carousel-control-prev" href="#carouselcontrol" role="button" data-slide="prev">
@@ -141,7 +150,7 @@
         <div class="col-sm-12 text-center my-3">
             <hr width="40%">
         </div>
-        <div class="col-sm-12 justify-content-center row mb-3 py-5 seller-orange-background " >
+        <div class="col-sm-12 justify-content-center row mb-3 py-5 seller-orange-background ">
             <!-- deal in progress -->
             <div class="col-lg-5 col-md-6 mt-4  ">
                 <div class="border py-2 bg-light text-center ">
@@ -149,17 +158,17 @@
                     <h5 class="mt-2 text-center text-black">Deals in Progress</h5>
                     <hr width="100%" class="mb-3">
                     <div class="mx-3 my-2">
-                        <h6 class="text-left">Deal 9</h6>
+                        <h6 class="text-left">Handlooms</h6>
                         <div class="progress ">
-                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div class="mx-3 my-2">
-                        <h6 class="text-left">Deal 10</h6>
+                        <h6 class="text-left">Handicraft Materials</h6>
                         <div class="progress ">
-                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 65%"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
@@ -169,25 +178,25 @@
 
             </div>
             <div class="col-lg-5 col-md-6 mt-4  ">
-                <div class="border py-2 bg-light text-center "  >
+                <div class="border py-2 bg-light text-center ">
                     <!-- <img src="../images/dealsinProgress.png" width="50%" > -->
                     <h5 class="mt-2 text-center">Deals History</h5>
                     <hr width="100%" class="mb-3">
                     <div class="row mx-2">
                         <div class="col-lg-3 col-sm-6 my-2 text-center">
-                            <h6 class="text-left">Deal 1</h6>
+                            <h6 class="text-left">Jute Bags</h6>
                         </div>
                         <div class="col-lg-3 my-2 col-sm-6 text-center">
-                            <h6 class="text-left">Deal 2</h6>
+                            <h6 class="text-left">Vegetables</h6>
                         </div>
-                        <div class="col-lg-3 my-2 text-center col-sm-6 ">
-                            <h6 class="text-left">Deal 3</h6>
+                        <div class="col-lg-6 my-2 text-center col-sm-6 ">
+                            <h6 class="text-left">Sewing Machines</h6>
                         </div>
-                        <div class="col-lg-3 my-2 text-center col-sm-6 ">
+                        <!-- <div class="col-lg-3 my-2 text-center col-sm-6 ">
                             <h6 class="text-left">Deal 4</h6>
                         </div>
                         <div class="col-sm-12">
-                                <hr>
+                            <hr>
                         </div>
                         <div class="col-lg-3 my-2 text-center col-sm-6 ">
                             <h6 class="text-left">Deal 5</h6>
@@ -200,7 +209,7 @@
                         </div>
                         <div class="col-lg-3 my-2 text-center col-sm-6 ">
                             <h6 class="text-left">Deal 8</h6>
-                        </div>
+                        </div> -->
 
                     </div>
 
