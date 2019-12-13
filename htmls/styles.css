@@ -1,0 +1,75 @@
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .signup-background{
+        background: linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)),url('../images/registration4.jpg') no-repeat ;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+    .ecorner-orange-background{
+        background:linear-gradient(rgba(255, 79, 88, 0.685),rgba(255, 79, 88, 0.685)),url('../images/registration4.jpg') no-repeat ;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .orange-background{
+        background: rgb(255,79,88);
+
+    }
+    .sector-orange-background{
+        background: linear-gradient(rgba(255, 79, 88, 0.685),rgba(255, 79, 88, 0.685)),url('../images/womenback2.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .seller-orange-background{
+        background:  linear-gradient(rgba(255, 79, 88, 0.585),rgba(255, 79, 88, 0.585)),url('../images/womenback3.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+
+    .login-background{
+        background: linear-gradient(rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.708)),url('../images/login1.jpg')  no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size:cover ;
+        height: 100%;
+    }
+    .text-font{
+        /* color:  rgb(255,79,88); */
+        font-family: sans-serif;
+        letter-spacing: 3px;
+    }
+
+    button{
+        letter-spacing: 1px;
+    }
+
+
+    input[type=text]{
+        letter-spacing: 2px;
+        
+    }
+
+    input[type=email]{
+        letter-spacing: 2px;
+    }
+
+    input[type=password]{
+        letter-spacing: 2px;
+    }
+
+    select{
+        letter-spacing: 2px;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }

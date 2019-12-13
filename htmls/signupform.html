@@ -1,0 +1,177 @@
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="row signup-background">
+        <div class="col-lg-6"></div>
+        <div class=" col-sm-12 col-lg-5 m-5 px-5  py-5  bg-white text-center" style="border: solid 2px">
+            <img src="../images/registration6.png" style="width: 200px;height: auto;">
+            <h1 class="pb-4 text-font"><b>Register Here</b></h1>
+            <form method="POST">
+                <div class="row">
+
+                    <div class="input-group col-sm-12 my-2 row">
+
+                        <label class=" col-2" for="name"><i class="fa  fa-user-circle-o fa-2x  "></i></label>
+                        <input type="text" class="form-control col-12" name="name" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="input-group my-2 col-sm-12 row">
+
+                        <label class=" col-2" for="email"><i class="fa  fa-envelope-o fa-2x px-1 "></i></label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-group col-sm-12 my-2 row">
+
+                        <label for="password" class="col-2"><i class="fa fa-key fa-2x px-1"
+                                aria-hidden="true"></i></label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="input-group col-sm-12 my-2 row">
+                        <label for="password2" class="col-2"><i class="fa fa-key fa-2x px-1"
+                                aria-hidden="true"></i></label>
+
+                        <input type="password" class="form-control" name="password2" id="password2"
+                            placeholder="Enter your password again">
+                    </div>
+
+
+                    <div class="input-group col-sm-12 my-2 row">
+
+                        <label class=" col-2" for="age"><i class="fa  fa-user fa-2x px-1 "></i></label>
+                        <input type="text" class="form-control" name="age" id="age" placeholder="Enter your age">
+                    </div>
+                    <div class="input-group  my-3 row">
+                        <div class="col-2">
+                            <h6>
+                                Gender
+                            </h6>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                            <label class="form-check-label " for="male">
+                                <i class="fa fa-mars" aria-hidden="true"></i> Male
+                            </label>
+                        </div>
+                        <div class="col-sm-3">
+                            <input class="form-check-input" type="radio" name="Working" id="female" value="female">
+                            <label class="form-check-label " for="female">
+                                <i class="fa fa-venus" aria-hidden="true"></i> Female
+                            </label>
+
+
+                        </div>
+                        <div class="col-sm-3">
+                            <input class="form-check-input" type="radio" name="Working" id="other" value="other">
+                            <label class="form-check-label " for="other">
+                                <i class="fa fa-transgender" aria-hidden="true"></i>Other
+                            </label>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="input-group  my-2 col-sm-12 row">
+                        <label for="education" class="col-2"><i class="fa fa-graduation-cap fa-2x px-1"
+                                aria-hidden="true"></i></label>
+
+
+                        <select id="education" class="form-control" name="education">
+                            <option selected disabled>Education</option>
+                            <option>Upto 10</option>
+                            <option>Completed 12</option>
+                            <option>Graduate</option>
+                            <option>Post Graduate</option>
+                        </select>
+                    </div>
+                    <div class="input-group col-sm-12 my-2 row">
+                        <label for="sectors" class="col-2"><i class="fa  fa-tags fa-2x px-1"
+                                aria-hidden="true"></i></label>
+
+
+                        <select id="sectors" class="form-control">
+                            <option selected disabled>Interested Sectors</option>
+                            <option>Women Empowerment</option>
+                        </select>
+                    </div>
+                    <div class="input-group col-sm-12 my-3 row">
+
+
+
+                        <span class="col-2">
+                            <i class="fa fa-briefcase fa-2x " aria-hidden="true"> </i>
+                        </span>
+                        <label class=" col-sm-3 " for="Working">Working : </label>
+                        <div class="col-sm-3 ">
+                            <input class="form-check-input" type="radio" name="Working" id="yes" value="option1"
+                                checked>
+                            <label class="form-check-label " for="yes">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="col-sm-3">
+                            <input class="form-check-input" type="radio" name="Working" id="No" value="No">
+                            <label class="form-check-label " for="No">
+                                No
+                            </label>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="input-group col-sm-12 my-2 row">
+
+                        <label for="location" class="col-2"><i class="px-1 fa fa-map-marker fa-2x " aria-hidden="true">
+                            </i></label>
+                        <input type="text" class="form-control" name="location" id="location" placeholder="Address">
+                    </div>
+                    <div class="input-group col-sm-12 my-2 row ">
+
+                        <label for="education" class="col-2"><i class="fa fa-handshake-o fa-2x px-1"
+                                aria-hidden="true"></i></label>
+
+
+                        <select id="education" class="form-control">
+                            <option selected disabled>Interested in Entreprenuership</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="my-3 border btn btn-light col-4">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
